@@ -15,14 +15,14 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['989339658384']
-global.premium = ['989339658384']
-global.botname = 'BALOCH EDIT'
-global.ownername = 'HOSEIN SARBAZI'
-global.group1 = 'https://chat.whatsapp.com/DtpQbVzujrfLRB2xvl97pp'
-global.group2 = 'https://chat.whatsapp.com/EWXqwpZO0GL45MP1ys3asy'
-global.packname = 'BALOCH EDIT'
-global.ytchannel = 'https://youtube.com/channel/UCIdvdgFwdssFC0Nxx9Xk1dQ'
+global.owner = ['989175142780']
+global.premium = ['989175142780']
+global.botname = 'SATA'
+global.ownername = 'SATA'
+global.group1 = 'https://chat.whatsapp.com/HWUyQZfZaIaEp7TN1rqLsx'
+global.group2 = 'https://chat.whatsapp.com/HWUyQZfZaIaEp7TN1rqLsx'
+global.packname = 'SATA'
+global.ytchannel = 'https://chat.whatsapp.com/HWUyQZfZaIaEp7TN1rqLsx'
 global.monayawal = '100000'
 global.darahawal = '100'
 global.besiAwal = '15'
@@ -75,8 +75,8 @@ global.limitawal = {
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')  
 global.bc = fs.readFileSync('./lib/bc.jpg')
-global.visoka = { url: 'https://i.ibb.co/DR1Fk9N/IMG-20220820-WA0001.jpg' }
-global.vid = { url: 'https://i.ibb.co/5W3gfSG/image.jpg' }
+global.visoka = { url: 'https://i.imgur.com/y8EdM5l.jpeg' }
+global.vid = { url: 'https://i.imgur.com/y8EdM5l.jpeg' }
 
 //—————「 Set Random Image Menu 」—————//
 
