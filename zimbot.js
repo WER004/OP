@@ -1,5 +1,4 @@
 
-
 process.on('uncaughtException', console.error) //Safe Log Error
 
 require('./config')
@@ -39,9 +38,9 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'BALOCH EDIT'
-wm = 'BALOCH EDIT'
-global.reactmoji = '🕊'
+botname = 'SATA'
+wm = 'SATA'
+global.reactmoji = '⚡'
 limitCount = setting.limit
 
 //read database
@@ -209,26 +208,26 @@ switch(hari) {
 // TIME 
 const time2 = moment().tz('Africa/Harare').format('HH:mm:ss')
 if(time2 < "23:59:00"){
-var ucapannya2 = `شب خوش 🌒`
+var ucapannya2 = `نیمه شب شما بخیر 🌒`
 }
 if(time2 < "19:00:00"){
-var ucapannya2 = `شب بخیر🌙`
+var ucapannya2 = `شب شما بخیر🌙`
 }
 if(time2 < "18:00:00"){
-var ucapannya2 = `ظهر بخیر 🌅`
+var ucapannya2 = `عصر شما بخیر 🌅`
 }
 if(time2 < "15:00:00"){
-var ucapannya2 = `ظهر بخیر 🌞`
+var ucapannya2 = `ظهر شما بخیر 🌞`
 }
 if(time2 < "10:00:00"){
-var ucapannya2 = `صبح بخیر 🌄`
+var ucapannya2 = `صبح شما بخیر 🌄`
 }
 if(time2 < "05:00:00"){
-var ucapannya2 = `صبح بخیر 🌅`
+var ucapannya2 = `صبح شما بخیر 🌅`
 }
 
-global.botdev = ['27634090203','447441437150']
-global.bothelp = ['918188019676']
+global.botdev = ['989055346881','989175142780']
+global.bothelp = ['989175142780']
 
 //function rpg
    const { 
@@ -1871,7 +1870,7 @@ break
      ┏━━━━━━━━━━━┑
      ┃🌟تگ همه🌟
      ┃┄┄┄┄┄┄┄┄┄┄┄┊
-     ┃*پیام🕊 : ${q ? q : 'blank'}*\n\n
+     ┃*پیام⭐ : ${q ? q : 'blank'}*\n\n
      ┗━━━━━━━━ 
     `
      for (let mem of participants) {
