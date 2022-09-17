@@ -1,6 +1,5 @@
 
 process.on('uncaughtException', console.error) //Safe Log Error
-
 require('./config')
 const { WAConnection, MessageType , BufferJSON, WA_DEFAULT_EPHEMERAL, PresenceUpdate, Presence, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -6478,9 +6477,9 @@ Access with ${prefix}getmsg ${text}
                 m.reply('*Bot working as public now hope you will enjoy*')
             }
             break
-            case 'private': {
+            case 'public': {
                 if (!isCreator) throw mess.owner
-                ZimBotInc.private = true
+                ZimBotInc.public = false
                 m.reply('*Bot working as private now hope you will enjoy*')
             }
             break
