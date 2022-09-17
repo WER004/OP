@@ -6480,7 +6480,7 @@ Access with ${prefix}getmsg ${text}
             break
             case 'private': {
                 if (!isCreator) throw mess.owner
-                ZimBotInc.public = true
+                ZimBotInc.private = true
                 m.reply('*Bot working as private now hope you will enjoy*')
             }
             break
